@@ -1,6 +1,9 @@
+# TinyJsEx
+Awesome tiny-js binding with C++ 
 
-TinyJs Bind Helper
-
+---
+## Simaple & How To Use
+```c++
 class cboy
 {
 public:
@@ -72,10 +75,11 @@ int _tmain(int argc, _TCHAR* argv[])
     system("pause");
     return 0;
 }
+```
+---
 
-//////////////////////////////////////////////////////////////////////////////////////////
 Run Result:
-
+```
 call from js: boy::set_age(5)
 call from js: boy::set_name(egg)
 call from js: boy::do_some_thing(100, 0.9, job)
@@ -83,3 +87,4 @@ call from js: mySqr(2)
 call from js: myStringConcat(str1, str2)
 call from js: myDoSomeThing(1, 0.5, str1, str2)
 请按任意键继续. . .
+```
