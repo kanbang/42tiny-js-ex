@@ -171,11 +171,11 @@ protected:
 
 typedef std::list<CallFunction*>	listFunCall;
 
-class TINY_JS_EX_API CTinyJsEx2
+class TINY_JS_EX_API CTinyJsEx
 {
 public:
-	CTinyJsEx2();
-	virtual ~CTinyJsEx2();
+	CTinyJsEx();
+	virtual ~CTinyJsEx();
 
 public:
 	template<typename Fn>
