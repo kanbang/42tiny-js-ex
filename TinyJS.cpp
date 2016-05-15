@@ -1572,8 +1572,8 @@ void CScriptTokenizer::tokenizeCode(CScriptLex &Lexer) {
 		tokenScopeStack.clear();
 		ScriptTokenState state;
 		pushForwarder(state);
-		if(l->tk == '§') { // special-Token at Start means the code begins not at Statement-Level
-			l->match('§');
+		if(l->tk == '¡ì') { // special-Token at Start means the code begins not at Statement-Level
+			l->match('¡ì');
 			tokenizeLiteral(state, 0);
 		} else do {
 			tokenizeStatement(state, 0);
@@ -7527,8 +7527,8 @@ void CTinyJS::native_parseFloat(const CFunctionsScopePtr &c, void *) {
 
 
 void CTinyJS::native_JSON_parse(const CFunctionsScopePtr &c, void *data) {
-	string Code = "§" + c->getArgument("text")->toString();
-	// "§" is a spezal-token - it's for the tokenizer and means the code begins not in Statement-level
+	string Code = "¡ì" + c->getArgument("text")->toString();
+	// "¡ì" is a spezal-token - it's for the tokenizer and means the code begins not in Statement-level
 	CScriptVarLinkWorkPtr returnVar;
 	CScriptTokenizer *oldTokenizer = t; t=0;
 	try {

@@ -39,6 +39,7 @@
 #endif
 
 #include "time_logger.h"
+#include "TinyJS_Threading.h"
 
 TimeLoggerCreate(alloc, false);
 TimeLoggerCreate(free, false);
