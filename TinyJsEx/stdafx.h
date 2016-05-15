@@ -14,11 +14,6 @@
 
 
 // TODO: 在此处引用程序需要的其他头文件
-#ifdef _DEBUG
-#pragma comment(lib, "..\\debug\\lib-tiny-js.lib")
-#else
-#pragma comment(lib, "..\\release\\lib-tiny-js.lib")
-#endif
 
 #define _BUILD_IN_TINY_JS_EX
 #include "include\TinyJsExLib.h"

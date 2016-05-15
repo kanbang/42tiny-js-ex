@@ -3,7 +3,7 @@
 #include "TinyJS.h"
 
 #ifdef _DEBUG
-#pragma comment(lib,"..\\debug\\lib-tiny-js_D.lib")
+#pragma comment(lib,"..\\debug\\lib-tiny-js.lib")
 #else
 #pragma comment(lib,"..\\release\\lib-tiny-js.lib")
 #endif // _DEBUG
