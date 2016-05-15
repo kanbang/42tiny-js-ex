@@ -1444,8 +1444,8 @@ public:
 	bool equal(const CNumber &Value) const;
 
 
-	bool isInt32() const { return type == tInt32; }
-	bool isUInt32() const { return (type == tInt32 && Int32 >= 0) || (type == tDouble && Double <= std::numeric_limits<uint32_t>::max()) || (type == tnNULL); }
+	bool isInt32() const  { return type == tInt32; }
+	bool isUInt32() const { return (type == tInt32 && Int32 >= 0) || (type == tDouble && Double <= (std::numeric_limits<uint32_t>::max)()) || (type == tnNULL); }
 	bool isDouble() const { return type == tDouble; }
 
 	bool isNaN() const { return type == tNaN; }

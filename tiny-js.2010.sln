@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "run_tests", "run_tests.vcxp
 		{9751C465-0294-43CD-A5D9-BD038ABA3961} = {9751C465-0294-43CD-A5D9-BD038ABA3961}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyJsEx", "TinyJsEx\TinyJsEx.vcxproj", "{CE0E709C-F6A9-421E-8D67-2234EFE63E9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{C6C6CD82-1400-464C-9B80-E15450CFDD18}.Debug|Win32.Build.0 = Debug|Win32
 		{C6C6CD82-1400-464C-9B80-E15450CFDD18}.Release|Win32.ActiveCfg = Release|Win32
 		{C6C6CD82-1400-464C-9B80-E15450CFDD18}.Release|Win32.Build.0 = Release|Win32
+		{CE0E709C-F6A9-421E-8D67-2234EFE63E9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE0E709C-F6A9-421E-8D67-2234EFE63E9D}.Debug|Win32.Build.0 = Debug|Win32
+		{CE0E709C-F6A9-421E-8D67-2234EFE63E9D}.Release|Win32.ActiveCfg = Release|Win32
+		{CE0E709C-F6A9-421E-8D67-2234EFE63E9D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
